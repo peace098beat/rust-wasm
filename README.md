@@ -19,6 +19,10 @@ wasm-pack と Node.js を使った参考
 
  - [初めてRustでWebAssemblyするときに紹介したいチュートリアル (入門) - Qiita](https://qiita.com/kamykn/items/371cba5487d3c7cea8aa)
 
+### js typed Array の wasm への渡し方
+ 
+ - [【WebAssembly】JS側で作成したtyped arrayをwasm側に渡す - shogonir blog](http://blog.shogonir.jp/entry/2017/05/23/232600)
+
 
 ## 環境
 
