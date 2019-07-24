@@ -11,7 +11,7 @@
 <script>
 fetch('./target/wasm32-unknown-unknown/debug/wasm_sample.wasm')
     .then((response) => response.arrayBuffer())
-    .then((buffer) => WebAssembly.instantiate(buffer))
+    .then((module) => WebAssembly.instantiate(module))
     .then(({instance}) => {
         const {twice} = instance.exports;
         console.assert(twice(2.2)==4.4);
