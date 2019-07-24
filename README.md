@@ -23,6 +23,9 @@ wasm-pack と Node.js を使った参考
  
  - [【WebAssembly】JS側で作成したtyped arrayをwasm側に渡す - shogonir blog](http://blog.shogonir.jp/entry/2017/05/23/232600)
 
+### 応用
+ - [Rust + WebAssembly でpngデコードを行うnode_moduleを作ってみる - Qiita](https://qiita.com/bokuweb/items/87a169429960f0dae2cb)
+ 
 
 ## 環境
 
