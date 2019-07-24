@@ -1,8 +1,9 @@
 
 # Rust + WebAssembly
 
+## 参考リンク
 
-## Rustupを使った方法
+### Rustupを使った方法
 
  - [Rustで初めての簡単なWebAssembly入門 - Qiita](https://qiita.com/shikigamix/items/152bbd8ca99172ef5ab7)
    - cargoでbuildする方法
@@ -29,6 +30,8 @@ $ cargo -V
 cargo 1.35.0 (6f3e9c367 2019-04-04)
 ```
 
+## Tips
+
 ビルドターゲットの追加
 
 ```bash
@@ -45,6 +48,11 @@ $ cargo build --target wasm32-unknown-unknown
 webサーバー
 
 WEBサーバーには ** Web Server for Chrome ** を利用. 
+
 ![](https://lh3.googleusercontent.com/j5Qh64sO4UGPG3yaNELSwCbk1ZraNxFyVly2W5Qz9IpZUZ5Xvo6_jpF-E6PLzdj_u4RRre90pw=w128-h128-e365)
+
 [Chrome ウェブストア - 拡張機能](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
+
+
+@tomoyuki_nohara
